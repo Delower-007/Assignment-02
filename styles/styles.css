@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+.display-flex {
+  display: flex;
+}
+.white {
+  color: white;
+}
+.header-bg-color,
+.main-bg-color {
+  /* background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  ); */
+
+  background: rgb(34, 34, 34);
+}
+.main-bg-color {
+  background: black;
+}
+.section-description {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn-primary {
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  padding: 16px 40px 16px 40px;
+  border: none;
+  margin-top: 28px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.section-heading .heading-name {
+  font-size: 2.5rem;
+  font-weight: 900px;
+}
+.heading-description {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 40px;
+}
+
+/* navbar related styles */
+.home {
+  background: rgb(230, 83, 60);
+  border-radius: 46px;
+  padding: 8px 20px 8px 20px;
+}
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+.links {
+  list-style: none;
+  gap: 50px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 4px;
+  align-items: center;
+  margin: 0px;
+}
+.brand {
+  color: rgb(230, 83, 60);
+  font-weight: 800;
+  font-size: 2.1rem;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+.brand-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.navbar,
+.all-banner {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+/* Banner Related Section  */
+.banner-info {
+  max-width: 520px;
+}
+.section-header {
+  font-size: 4rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 30px;
+}
+.shape {
+  font-style: italic;
+}
+.btn-secondary {
+  border-radius: 42px;
+  padding: 16px 40px 16px 40px;
+  margin-top: 28px;
+  margin-left: 20px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 2px solid white;
+  background: rgb(34, 34, 34);
+}
+.all-banner {
+  justify-content: space-between;
+}
+/* Second Section  */
+.main-section {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* image related task */
+.img-section {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.size-img {
+  /* border-radius: 90px; */
+  border-radius: 50%;
+}
+.img-description-container {
+  max-width: 180px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.img-description-container .img-title {
+  font-size: 1rem;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+/* ---Running the person  */
+.main-second-part {
+  max-width: 420px;
+  margin: 0 auto;
+  padding-left: 60px;
+
+  /* text-align: center; */
+}
+.run-section-heading {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: white;
+}
+.run-heading-description {
+  font-size: 0.7rem;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.running-man .running-img {
+  max-width: 350px;
+  max-height: 320px;
+  border-radius: 18px;
+  margin-left: 40px;
+}
+.running-man {
+  background: rgb(34, 34, 34);
+  max-width: 1060px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  /* justify-content: center; */
+  gap: 170px;
+  border-radius: 18px;
+  margin-top: 70px;
+}
+/* Meet Our Team  */
+.meet-our-team {
+  max-width: 670px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.meet-our-team .meet-heading {
+  font-size: 2.5rem;
+  font-weight: 900px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.all-images {
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  /* margin: 0px 20px; */
+}
+.all-images .specific-img {
+  width: 325px;
+  height: 270px;
+  border-radius: 18px;
+}
+.all-image-container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
