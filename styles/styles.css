@@ -6,6 +6,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 /* *{
   margin: 0;
   padding: 0;
@@ -39,6 +40,7 @@ footer {
 }
 
 .section-description {
+  max-width: 340px;
   font-size: 0.7rem;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -74,7 +76,7 @@ footer {
   padding: 8px 20px 8px 20px;
 }
 .navbar {
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
 }
 .links {
@@ -105,19 +107,21 @@ footer {
 .all-banner {
   max-width: 1060px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 /* Banner Related Section  */
 .banner-info {
   max-width: 520px;
 }
-.section-header {
+.section-header{
   font-size: 4rem;
   font-weight: 900;
   color: white;
   margin-bottom: 30px;
 }
-.shape {
-  font-style: italic;
+#shape {
+  font-family: "Miama Nueva", sans-serif;
+  font-weight: 500;
 }
 .btn-secondary {
   border-radius: 42px;
@@ -135,6 +139,7 @@ footer {
 }
 
 /* Banner-Button Related Task */
+
 .ball {
   background-color: red;
   height: 25px;
@@ -142,7 +147,14 @@ footer {
   padding: 5px;
   border-radius: 20px;
 }
+#Hello-banner {
+  position: relative;
+}
 .button-1 {
+  position: relative;
+  top: -200px;
+  /* top:-13rem; */
+  /* top: 3232%; */
   gap: 15px;
   align-items: center;
   align-items: center;
@@ -154,8 +166,12 @@ footer {
   background: rgba(48, 48, 48, 0.8);
   margin-left: 800px;
   padding: 0 10px;
-  margin-top: 200px;
 }
+.button-2 {
+  margin-left: 1070px;
+  margin-top: -350px;
+}
+
 .first-text {
   font-weight: 900;
   color: white;
@@ -267,8 +283,7 @@ footer {
   border-radius: 18px;
   margin-bottom: 15px;
 }
-.all-images .specific-img {
-}
+
 .all-image-container {
   max-width: 1060px;
   margin: 0 auto;
@@ -292,6 +307,10 @@ footer {
 .image-name-related {
   margin-left: 15px;
   margin-top: -70px;
+}
+.image-name-relateds {
+  margin-right: 15px;
+  margin-bottom: 20px;
 }
 /* Footer Related code */
 .footer-section {
@@ -428,6 +447,7 @@ select {
   width: 190px;
   color: rgba(255, 255, 255, 0.3);
 }
+
 .form-styles {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -441,6 +461,16 @@ select {
   width: 100px;
   margin-left: 232px;
   margin-top: 30px;
+}
+.containerss {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
 }
 
 /* Responsive Related Task */
@@ -483,4 +513,32 @@ select {
   .join-now {
     padding: 16px 40px 16px 40px;
   }
+  .BMI-Section {
+    flex-direction: column;
+  }
+  .form {
+    margin-top: -150px;
+    margin-left: -100px;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .bmi-description {
+    margin-right: -10;
+  }
+  .navbar, .links, .all-banner{
+    flex-direction: column;
+  }
+  .navbar{
+    justify-content: flex-start;
+    margin-left: -220px;
+  }
+  .heading-name{
+    font-size: 1.5rem;
+  }
+  .hellow {
+    margin-left: -5px;
+  }
+
 }
